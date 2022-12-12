@@ -6,6 +6,10 @@
 
 A simple abstraction of load balancing systems is the balls into bins probability model, which can be modified to represent more load balancing scenarios. Performance analysis of algorithms used to allocate balls into bins is often complex and not intuitive. This project aims to create a software package to aid in collecting and analysing experimental data for various balls into bins algorithms. The package provides an easy-to-use API that can run simulations faster than equivalent plain Python code whilst reducing the implementation complexity required to run and parallelise experiments. Simulation results contain several metrics that are calculated after the experiments are run. These can be visualised in the provided Jupyter Notebook to compare and evaluate different algorithms. The software was able to replicate results seen in literature with minimal effort in order to deliver an experimentation focused survey of commonly cited balls into bins algorithms.
 
+## Project Paper
+
+The project paper which describes the scientific process can be found [here](report.pdf).
+
 ## Usage Notebook
 
 Get started by running `pip install .`. Libraries used in the notebook need to be installed separately.
